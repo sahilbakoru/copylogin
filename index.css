@@ -1,0 +1,73 @@
+@font-face {
+    font-family: 'DM Serif Display', serif;
+    src: url("DMSerifDisplay-Regular.ttf") /* EOT file for IE */
+}
+
+
+.line1{
+    margin-top: 7%;
+    font-family: 'DM Serif Display', serif;
+   
+    font-size:90px;
+ text-align: center;
+}
+.line{
+    font-family: 'DM Serif Display', serif;
+ 
+    font-size: 500%;
+ text-align: center;
+ justify-items: center;
+}
+
+
+.gap{
+    margin:5%
+}
+
+.swipe{
+    overflow:auto;
+    white-space:nowrap;
+}
+
+.resume{
+    display: inline-block;
+ padding: 4%;
+ font-family: 'DM Serif Display', serif;
+    font-size: 250%;
+    color: rgba(0, 0, 0, 0.555);
+}
+.resumesec{
+    text-align: center;
+}
+.code{
+    text-align: center;
+  
+}
+
+@media   (max-width: 580px) {
+    .line1{
+        margin-top: 20%;
+        font-family: 'DM Serif Display', serif;
+        font-size: 260%;
+     text-align: center;
+     align-items: center;
+     margin-left: 10%;
+     margin-right: 10%;
+    }
+    .line{
+       padding-left: 10%;
+       padding-right: 10%;
+       font-family: 'DM Serif Display', serif;
+        font-size: 260%;
+     text-align: center;
+     align-items: center;
+     text-size-adjust:unset;
+    }
+    .resume{
+    margin-bottom: 200px;
+        font-size: 120%; 
+    }
+    
+}
+
+
